@@ -69,7 +69,7 @@ myObject = JsonUtility.FromJson<MyClass>(json);
 
 Hoe passen we dit toe?
 
-Onze `class` files hebben niet de [Serializer] attribute die moeten we erbij zetten op:
+Onze `class` files hebben niet de [Serializable] attribute die moeten we erbij zetten op:
 - ConsoleMon
 - Skill
 
